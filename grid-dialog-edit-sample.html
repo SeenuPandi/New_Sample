@@ -25,8 +25,8 @@
     height: 400,
     columns: [
             { field: 'OrderID', isPrimaryKey: true, headerText: 'Order ID' },
-            { field: 'CustomerID', headerText: 'CustomerID', allowEditing: false },
-            { field: 'OrderDate', headerText: 'Order Date', type: 'date', width: 120, format: { type:'date', format:'dd.MM.yyyy' } ,editType: 'datepickeredit', edit: { params: { format:'dd.MM.yy' }  } },
+            { field: 'CustomerID', headerText: 'CustomerID'},
+            { field: 'OrderDate', headerText: 'Order Date', type: 'date', width: 120, format: { type:'date', format:'dd.MM.yyyy' } , allowEditing: false  },
             { field: "ShipCity", headerText: "Ship City", width: 250 },
             { field: 'ShipCountry', headerText: 'Ship Country', allowEditing:false},
             { field: 'Freight', headerText: 'Freight', textAlign: 'Right', editType: 'numericedit', width: 120, format: 'C2'},
