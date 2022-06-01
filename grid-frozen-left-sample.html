@@ -31,7 +31,7 @@
         { field: 'OrderDate', headerText: 'Order Date', type: 'date', width: 120, format: { type:'date', format:'dd.MM.yyyy' } ,editType: 'datepickeredit', edit: { params: { format:'dd.MM.yy' }  } },
         { field: 'ShipCountry', headerText: 'Ship Country', allowEditing:false, width: 150},
         { field: 'Freight', headerText: 'Freight', textAlign: 'Right', editType: 'numericedit', width: 120, format: 'C2'},
-        { field: "ShipRegion", headerText: "Ship Region", width: 250,  editType: 'dropdownedit', width: 150, freeze: 'Left', edit: { params: { value: 'CJ' } }},
+        { field: "ShipRegion", headerText: "Ship Region", editType: 'dropdownedit', width: 150, freeze: 'Left', edit: { params: { value: 'CJ' } }},
         { field: 'Verified', displayAsCheckBox: true,editType: "booleanedit", textAlign: 'Center',width: 100},
     ]
 });
