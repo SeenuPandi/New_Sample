@@ -26,8 +26,8 @@ var grid = new ej.grids.Grid({
     editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
     frozenRows: 2,
     columns: [
-        { field: 'OrderID', isPrimaryKey: true, headerText: 'Order ID', freeze: 'Left' },
-        { field: 'CustomerID', headerText: 'CustomerID', allowEditing: false },
+        { field: 'OrderID', isPrimaryKey: true, headerText: 'Order ID', freeze: 'Left', width: 120 },
+        { field: 'CustomerID', headerText: 'CustomerID', allowEditing: false, width: 120 },
         { field: "ShipCity", headerText: "Ship City", width: 250, allowEditing: false},
         { field: 'OrderDate', headerText: 'Order Date', type: 'date', width: 120, format: { type:'date', format:'dd.MM.yyyy' } ,editType: 'datepickeredit', edit: { params: { format:'dd.MM.yy' }  } },
         { field: "ShipRegion", headerText: "Ship Region",  editType: 'dropdownedit', width: 150, edit: { params: { value: 'CJ' } }},
